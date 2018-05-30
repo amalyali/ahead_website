@@ -280,7 +280,7 @@ header[role="header"].header-top section a.video-button:hover,.video-pan header 
 
 /*== Title-Page ==*/
 
-header[role="title-page"] h4,header[role="title-page"] h4,header[role="title-page"] h4{ font-size:19px; line-height:20px; color:#71717c; text-transform:uppercase; font-weight:600}
+header[role="title-page"] h4,header[role="title-page"] h4,header[role="title-page"] h4{ font-size:24px; line-height:20px; color:#71717c; text-transform:uppercase; font-weight:600}
 
 header[role="title-page"] h4:after,header[role="title-page"] h4:after,header[role="title-page"] h4:after{ content:""; display:block; margin:0 auto; width:79px; height:2px; background-color:#6bb551; margin:17px auto; margin-bottom:0}
 
@@ -292,7 +292,7 @@ header[role="title-page"] h2,header[role="title-page"] h2{ color:#000; font-size
 
 .section-one article{ padding-top:36px}
 
-.section-one article p{ font-size:15px; line-height:27px; color:#5e5e64; font-weight:500}
+.section-one article p{ font-size:18px; line-height:27px; color:#5e5e64; font-weight:500}
 
 /*== Four Box Pan ==*/
 
@@ -535,7 +535,7 @@ border-bottom-right-radius: 3px;}
 .footer .fa-heart { color: #e84545; font-size: 11px; margin: 0 2px;}
 
 p{
-	font-size:13px;
+	font-size:18px;
 	line-height:27px;
 	font-weight:400;
 	padding-bottom:33px;
