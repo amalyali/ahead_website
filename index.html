@@ -43,8 +43,8 @@
                                 <li class="active"><a href="#headere-top" title="Home">Home</a></li>
                                 <li><a href="#rationale" title="Rationale">About</a></li>
                                 <li><a href="#programme" title="Programme">Programme</a></li>
-                                <li><a href="#venue" title="Venue">Venue</a></li>
                                 <li><a href="#registration" title="Registration">Registration</a></li>
+                                <li><a href="#venue" title="Venue">Venue</a></li>
                                 <li><a href="#contact" title="Contact">Contact</a></li> 
                             </ul>
                         </div>
@@ -102,7 +102,9 @@
         <!-- main -->
         <main role="main" id=" main-wrapper">
             
+            
             <!-- top pan -->
+            <!--
             <section role="loges" class="top-pan">
                 <div class="container">
                     <ul class="row">
@@ -126,6 +128,7 @@
                 </div>
             </section>
             <!-- top pan -->
+            -->
             
             <!-- section-one -->
             <section class="section-one text-center" id="rationale">
@@ -143,9 +146,7 @@
                 </div>
             </section>
             <!-- section-two  -->
-            
-            
-            <section class="section-one text-center" id="programme">
+            <section class="section-four text-center" id="programme">
                 
                 <div class="container">
                     <header role="title-page">
@@ -154,17 +155,14 @@
                     <article>
 						<p>The school will consist of eight sessions, with each one being a mixture of lectures and tutorials.</p>
 						
-						<p>Invited speakers:</p>
+						<p><font size="5">Invited speakers:</font></p>
 
 
-						<p><a href="http://www.mpe.mpg.de/~am/" style=" color : #6AB550;" target="_blank">Andrea Merloni</a> (MPE, confirmed)<br>
-						<i>X-ray surveys</i></p>
+						<p><a href="http://www.mpe.mpg.de/~am/" style=" color : #6AB550;" target="_blank">Andrea Merloni</a> (MPE, confirmed), <i>X-ray surveys</i></p>
 
-						<p><a href="http://www.mpe.mpg.de/~mara/" style=" color : #6AB550; " target="_blank">Mara Salvato</a> (MPE, confirmed)<br>
-						<i>The magic art of cross-matching</i></p>
+						<p><a href="http://www.mpe.mpg.de/~mara/" style=" color : #6AB550; " target="_blank">Mara Salvato</a> (MPE, confirmed), <i>The magic art of cross-matching</i></p>
 
-						<p><span style="color : #6AB550">Johan Comparat</span> (MPE, confirmed)<br>
-						<i>Cosmological surveys</i></p>
+						<p><a href="http://www.mpe.mpg.de/~comparat/" style=" color : #6AB550; " target="_blank">Johan Comparat</a> (MPE, confirmed), <i>Cosmological surveys</i></p>
 
 						<p><span style="color:#6AB550">Bla Bla</span> (TBD)</p>
 						
@@ -182,29 +180,6 @@
             <!-- section-two -->
             
             <!-- section-three -->
-            <section class="section-four text-center" id="venue">
-                <div class="container">
-                    <header role="title-page">
-                        <h4>Venue</h4>
-                    </header>
-                    <article>
-                    	<p>The workshop will take place at: </p>
-                    	<p>Max-Planck-Institut für extraterrestrische Physik<br>
-                    	Gießenbachstraße 1<br>
-                    	85748 Garching bei München</p>
-                    </article>
-                    
-                    <!--google map start-->
-                    <div class="row mapArea">
-                        <div id="map" style="width: 100%; height: 100%"></div>
-                    </div>
-                    <!--google map end-->
-                </div>
-                
-                
-            </section>
-            <!-- section-three -->
-            <!-- section-four -->
             <section class="section-one text-center" id="registration">
                 <div class="container">
                     <header role="title-page">
@@ -229,7 +204,10 @@
 					<button onclick="myFunction()">Registration form</button> 
 
 					<div id="myDIV" class="toshow" style="display:none">                    
-                    <iframe onload="javascript:parent.scrollTo(0,0);" align="middle" height="2023" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://wwwmpa.mpa-garching.mpg.de/machform/embed.php?id=16357" title="AHEAD Multi-Wavelength"><a href="https://wwwmpa.mpa-garching.mpg.de/machform/view.php?id=16357" title="AHEAD Multi-Wavelength">AHEAD Multi-Wavelength</a></iframe>
+					<!--
+					<iframe onload="javascript:parent.scrollTo(0,0);" align="middle" height="2023" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://wwwmpa.mpa-garching.mpg.de/machform/embed.php?id=16357" title="AHEAD Multi-Wavelength"><a href="https://wwwmpa.mpa-garching.mpg.de/machform/view.php?id=16357" title="AHEAD Multi-Wavelength">AHEAD Multi-Wavelength</a></iframe>
+					-->
+					<iframe onload="javascript:parent.scrollBy(0, -825);" align="middle" height="2023" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none" src="https://wwwmpa.mpa-garching.mpg.de/machform/embed.php?id=16357" title="AHEAD Multi-Wavelength"><a href="https://wwwmpa.mpa-garching.mpg.de/machform/view.php?id=16357" title="AHEAD Multi-Wavelength">AHEAD Multi-Wavelength</a></iframe>
                     </div>
                     <script>
 					function myFunction() {
@@ -245,13 +223,78 @@
                     
                 </div>
             </section>
+            <!-- section-three -->
+            
+            
+            <!-- section-four -->
+            <section class="section-four text-center" id="venue">
+                <div class="container">
+                    <header role="title-page">
+                        <h4>Venue</h4>
+                    </header>
+                    <article>
+                    	<p>The workshop will take place at: </p>
+                    	<p><a href="http://www.mpe.mpg.de/2169/en" target="_blank">Max-Planck-Institut für extraterrestrische Physik</a><br>
+                    	Gießenbachstraße 1<br>
+                    	85748 Garching bei München</p>
+                    </article>
+                    
+                    <!--google map start-->
+                    <div class="row mapArea">
+                        <div id="map" style="width: 100%; height: 100%"></div>
+                    </div>
+                    <!--google map end-->
+                </div>
+                
+                
+            </section>
             <!-- section-four -->
             
             
-            <!-- section-five -->
-            <section class="section-two" id="contact">
+           <!-- section-five  -->
+            <section class="section-one text-center" id="contact">
                 
+                <div class="container">
+                    <header role="title-page">
+                        <h4>Contact</h4>
+                    </header>
+                    <article>
+						<p>Do not hesitate to contact the Scientific and Local Organizing Committees for any enquiry.</p>
+						
+						<p><font size="5">SOC:</font></p>
+
+
+						<p><span style="color:#6AB550">Vadim Burwitz</span></p>
+
+						<p><span style="color:#6AB550">Andrea Merloni</span></p>
+
+						<p><span style="color:#6AB550">Mara Salvato</span></p>
+
+						
+						<p><font size="5">LOC:</font></p>
+						
+						<p><span style="color:#6AB550">Riccardo Arcodia</span></p>
+		
+						<p><span style="color:#6AB550">Vadim Burwitz</span></p>
+
+						<p><span style="color:#6AB550">Jacob Ider Chitham</span></p>
+
+						<p><span style="color:#6AB550">Adam Malyali</span></p>
+                    </article>
+                </div>
+                
+            </section>
+            <!-- section-five -->
+            
+            
+            
+            
+            
+            <!-- previous section-five -->
+            <!--
+            <section class="section-two" id="contact">-->
                 <!-- image-content -->
+                <!--
                 <section>
                     <div class="col-xs-12 col-sm-6 col-md-6">
                         <article>
@@ -268,10 +311,12 @@
                     <div class="col-xs-12 col-sm-6 col-md-6">
                     <figure class="row" style="background-image:url('http://placehold.it/1600x800')"></figure>
                 </div>
-				</section>
+				</section>-->
 				<!-- image-content -->
-				<div class="clearfix"></div>
+				<!--
+				<div class="clearfix"></div> -->
 				<!-- image-content -->
+				<!--
 				<section>
                 <div class="col-xs-12 col-sm-6 col-md-6">
                 <figure class="row" style="background-image:url('http://placehold.it/1600x800')"></figure>
@@ -283,12 +328,13 @@
                     <p>Morbi leo orta felis euismod semper.Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo orta felis euismod semper.Morbi leo orta felis euismod semper.Maecenas sed diam eget risus varius.</p>
                 </article>
 				</div>
-				</section>
+				</section>-->
 				<!-- image-content -->
+				<!--
 				<div class="clearfix"></div>
         
-			</section>
-			<!-- section-five -->
+			</section> -->
+			<!-- previous section-five -->
     
 	<!-- footer -->
     <footer role="footer" class="footer text-center">
@@ -306,16 +352,15 @@
             -->
             <!-- socil-icons -->
             <!-- nav -->
-            <!--
             <nav role="footer-nav">
-                <a href="#">Terms of Use </a>
-                <a href="#">Privacy Policy</a>
+			<a href="http://www.mpe.mpg.de/impressum" target="_blank" style="color:#6AB550">Impressum</a>            
+			<!--    <a href="#">Privacy Policy</a> -->
             </nav>
-            -->
             <!-- nav -->
             <!--
-            <p class="copy">&copy; 2016 Sartr. All rights reserved. Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>
-			-->
+            <p class="copy">&copy; 2016 Sartr. All rights reserved. Made by <a href="http://www.designstub.com/">Designstub</a></p>
+            -->
+            <p class="copy">&copy; 2016. All rights reserved. Template made by <a href="http://www.designstub.com/" target="_blank">Designstub</a></p>
         </div>
     </footer>
     <!-- footer -->
